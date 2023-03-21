@@ -1,5 +1,5 @@
 Github link：https://github.com/nickleeair/NTHU_EE6470_ESL/tree/main/HW1
-1. Introduction of the Problem and my Solution
+1. Introduction of the Problem and my Solution endl/
 這次的作業是要實作Median filter和Mean filter的演算法，並且要求兩種不同的Pixel transfer版本。
 第一種是基於lab02-Sobel Filter的範例，單純利用FIFO Channels來做。
 在計算Convolution時，一次僅將「必要」的「一個」Pixel送入Filter內做運算。
