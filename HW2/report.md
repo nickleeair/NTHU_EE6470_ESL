@@ -46,6 +46,7 @@ Simulation time for TLM bus
    因爲忘記做read write count的功能，我在Filters_TLM_BUS_1的版本中加入了read write count的功能。基本上就是在testbench中在讀資料和寫資料後都加了counter來數讀寫次數以下是添加code的截圖
    ![image](https://user-images.githubusercontent.com/102891463/233007393-b441fc5e-2140-45a4-85d7-1ccdc3ea2717.png)
    ![image](https://user-images.githubusercontent.com/102891463/233007443-ae222984-94f4-422b-b7be-ac18ceb30f5e.png)
+   
    以及之後重新run的結果
    ![image](https://user-images.githubusercontent.com/102891463/233007574-5f923f56-dc4f-4796-949a-e2495d0d5155.png)
 
