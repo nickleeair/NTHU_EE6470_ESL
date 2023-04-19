@@ -41,5 +41,15 @@ Simulation time for TLM bus
 
 4. Discussions and conclusions
    這次的作業將SystemC/TLM還有如何有效的做Memory的存取(DMI)給整合起來，且利用quantum keeper很好的降低模擬時間，儘管我還不能透徹的瞭解使用DMI來操作Memory還有使用一般transaction來傳遞資料在效益上到底有多大的差異，但是透過Lab3~Lab4+HW2的練習之後，我對Testbench(Initiator) - Bus、Router(Targer+Initiator) - Filter(Target)的連接有更近一步的認識！
+   
+5.補充
+   因爲忘記做read write count的功能，我在Filters_TLM_BUS_1的版本中加入了read write count的功能。基本上就是在testbench中在讀資料和寫資料後都加了counter來數讀寫次數以下是添加code的截圖
+   ![image](https://user-images.githubusercontent.com/102891463/233007393-b441fc5e-2140-45a4-85d7-1ccdc3ea2717.png)
+   ![image](https://user-images.githubusercontent.com/102891463/233007443-ae222984-94f4-422b-b7be-ac18ceb30f5e.png)
+   以及之後重新run的結果
+   ![image](https://user-images.githubusercontent.com/102891463/233007574-5f923f56-dc4f-4796-949a-e2495d0d5155.png)
+
+
+
 
 
