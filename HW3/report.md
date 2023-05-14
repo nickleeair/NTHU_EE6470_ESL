@@ -12,11 +12,17 @@ Coding style improve_1：在之前的版本，大部分計算會在for loop内�
 ![image](https://github.com/nickleeair/NTHU_EE6470_ESL/assets/102891463/a233e37c-d1d1-433f-abbe-b3362dd02639)
 3. Experimental results
 	Area(um^2)	Latency(ns)	Throughput(bit/ns)
+	
 Base implementation	6630.7	49151990	0.032
+
 improved version_1	5319.0	32767990	0.048
-UNROLL	6055.4	15073270	0.104
-PIPELINE	9860.5	13762550	0.114
-UNROLL+PIPELINE	5326.4	15003270	0.105
+
+UNROLL			6055.4	15073270	0.104
+
+PIPELINE		9860.5	13762550	0.114
+
+UNROLL+PIPELINE		5326.4	15003270	0.105
+
      由上述的實驗數據可以發現，在經過improve coding style後，合成的面積變小了，且latency和throughput都有提升，我認爲應該是因爲除法器的移出，導致HLS在合成時不需要多次通過除法器導致的。
 當我們使用BASIC版本的時候，他合成的面積是最小的，但由於datapath沒有進行優化或者是平行調整的關係，Simulation times相較其他三者來著長非常多。
    而將雙迴圈整個UNROLL開後可以發現由於迴圈內部的運算全部平行處理的關係，Simulation times確實有大幅的下降，不過也因為平行運算所需要的硬體數量增加，故面積也上升。
