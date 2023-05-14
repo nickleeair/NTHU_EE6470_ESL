@@ -21,10 +21,11 @@ UNROLL			6055.4	15073270	0.104
 
 PIPELINE		9860.5	13762550	0.114
 
-UNROLL+PIPELINE		5326.4	15003270	0.105/n
+UNROLL+PIPELINE		5326.4	15003270	0.105
 
-    由上述的實驗數據可以發現，在經過improve coding style後，合成的面積變小了，且latency和throughput都有提升，我認爲應該是因爲除法器的移出，導致HLS在合成時不需要多次通過除法器導致的。/n
-當我們使用BASIC版本的時候，他合成的面積是最小的，但由於datapath沒有進行優化或者是平行調整的關係，Simulation times相較其他三者來著長非常多。
+
+
+    由上述的實驗數據可以發現，在經過improve coding style後，合成的面積變小了，且latency和throughput都有提升，我認爲應該是因爲除法器的移出，導致HLS在合成時不需要多次通過除法器導致的。當我們使用BASIC版本的時候，他合成的面積是最小的，但由於datapath沒有進行優化或者是平行調整的關係，Simulation times相較其他三者來著長非常多。
    而將雙迴圈整個UNROLL開後可以發現由於迴圈內部的運算全部平行處理的關係，Simulation times確實有大幅的下降，不過也因為平行運算所需要的硬體數量增加，故面積也上升。
    而PIPELINE的部分則又使Simulation times再度下降。不過當Pipeline切的Stage越多，同時運算的Stage越多，則所需要的硬體數量又是倍數上升，故面積增加了超過2倍的大小。
    我想在設計時，我們應該選擇要特別著重面積或者是timing來在PIPELINE以及UNROLL間做出不同的調整。
