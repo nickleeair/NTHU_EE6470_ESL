@@ -1,0 +1,78 @@
+IDE: No such file or directory.
+[New LWP 216364]
+[New LWP 216365]
+[New LWP 216366]
+[New LWP 216367]
+[New LWP 216368]
+[New LWP 216369]
+[New LWP 216370]
+[New LWP 216371]
+[New LWP 216372]
+[New LWP 216373]
+[New LWP 216374]
+[New LWP 216375]
+[New LWP 216376]
+[New LWP 216377]
+[New LWP 216378]
+[New LWP 216379]
+[New LWP 216380]
+[New LWP 216495]
+[New LWP 216496]
+[New LWP 216497]
+[New LWP 216665]
+[New LWP 216666]
+[New LWP 216762]
+[New LWP 217027]
+[New LWP 217065]
+[New LWP 217107]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib64/libthread_db.so.1".
+0x00007f6b8e3cb659 in waitpid () from /usr/lib64/libc.so.6
+#0  0x00007f6b8e3cb659 in waitpid () from /usr/lib64/libc.so.6
+#1  0x00007f6b8e348f62 in do_system () from /usr/lib64/libc.so.6
+#2  0x00007f6b8e349311 in system () from /usr/lib64/libc.so.6
+#3  0x00007f6b690c9d99 in dumpStack () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libbdw_st.so
+#4  0x00007f6b6a0a53f3 in StratusIDE::Internal::ourSigHandler (sig=11) at ../cynthProjInterface/stratusideplugin.cpp:220
+#5  <signal handler called>
+#6  0x00007f6b8f23d464 in QIODevice::isTextModeEnabled() const () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Core.so.5
+#7  0x00007f6b8f243bbc in ?? () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Core.so.5
+#8  0x00007f6b8f244e78 in ?? () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Core.so.5
+#9  0x00007f6b8f247661 in QTextStream::read(long long) () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Core.so.5
+#10 0x00007f6b69fb8d9e in StratusIDE::CynthRunControl::readAndDisplayLines (this=0x87cf300, p_force=true) at ../cynthProjInterface/cynthruncontrol.cpp:196
+#11 0x00007f6b69fb9514 in StratusIDE::CynthRunControl::updateDocument (this=0x87cf300, traceFileName=..., stopped=false) at ../cynthProjInterface/cynthruncontrol.cpp:286
+#12 0x00007f6b69fb8c83 in StratusIDE::CynthRunControl::setOutputWindow (this=0x87cf300, outputWindow=0x650fab0) at ../cynthProjInterface/cynthruncontrol.cpp:152
+#13 0x00007f6b69e932ac in StratusIDE::CynthAppOutputPane::setupOutputWindow (this=0x2cce920, index=5, cynthRunControl=0x87cf300) at ../cynthProjInterface/cynthappoutputpane.cpp:660
+#14 0x00007f6b69e93bfe in StratusIDE::CynthAppOutputPane::startedJob (this=0x2cce920, job=0x84cd390, popupTab=false) at ../cynthProjInterface/cynthappoutputpane.cpp:836
+#15 0x00007f6b6a040f5a in StratusIDE::JobTrackerWindow::jobStateChanged (this=0x2ce4570, jobName=..., state=CynthJobRunning) at ../cynthProjInterface/jobtrackerwindow.cpp:267
+#16 0x00007f6b69f94fe8 in QtPrivate::FunctorCall<QtPrivate::IndexesList<0, 1>, QtPrivate::List<QString const&, CynthJobState>, void, void (StratusIDE::JobTrackerWindow::*)(QString const&, CynthJobState)>::call (f=(void (StratusIDE::JobTrackerWindow::*)(StratusIDE::JobTrackerWindow * const, const QString &, CynthJobState)) 0x7f6b6a0408fa <StratusIDE::JobTrackerWindow::jobStateChanged(QString const&, CynthJobState)>, o=0x2ce4570, arg=0x7f6b48066f90) at ../../../Install/tools.lnx86/Qt/v5/64bit/include/QtCore/qobjectdefs_impl.h:136
+#17 0x00007f6b69f94334 in QtPrivate::FunctionPointer<void (StratusIDE::JobTrackerWindow::*)(QString const&, CynthJobState)>::call<QtPrivate::List<QString const&, CynthJobState>, void> (f=(void (StratusIDE::JobTrackerWindow::*)(StratusIDE::JobTrackerWindow * const, const QString &, CynthJobState)) 0x7f6b6a0408fa <StratusIDE::JobTrackerWindow::jobStateChanged(QString const&, CynthJobState)>, o=0x2ce4570, arg=0x7f6b48066f90) at ../../../Install/tools.lnx86/Qt/v5/64bit/include/QtCore/qobjectdefs_impl.h:169
+#18 0x00007f6b69f9166b in QtPrivate::QSlotObject<void (StratusIDE::JobTrackerWindow::*)(QString const&, CynthJobState), QtPrivate::List<QString const&, CynthJobState>, void>::impl (which=1, this_=0x28a87a0, r=0x2ce4570, a=0x7f6b48066f90, ret=0x0) at ../../../Install/tools.lnx86/Qt/v5/64bit/include/QtCore/qobject_impl.h:120
+#19 0x00007f6b8f333982 in QObject::event(QEvent*) () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Core.so.5
+$1 = 0
+$2 = 0
+#12 0x00007f6b69fb8c83 in StratusIDE::CynthRunControl::setOutputWindow (this=0x87cf300, outputWindow=0x650fab0) at ../cynthProjInterface/cynthruncontrol.cpp:152
+#13 0x00007f6b69e932ac in StratusIDE::CynthAppOutputPane::setupOutputWindow (this=0x2cce920, index=5, cynthRunControl=0x87cf300) at ../cynthProjInterface/cynthappoutputpane.cpp:660
+#14 0x00007f6b69e93bfe in StratusIDE::CynthAppOutputPane::startedJob (this=0x2cce920, job=0x84cd390, popupTab=false) at ../cynthProjInterface/cynthappoutputpane.cpp:836
+#15 0x00007f6b6a040f5a in StratusIDE::JobTrackerWindow::jobStateChanged (this=0x2ce4570, jobName=..., state=CynthJobRunning) at ../cynthProjInterface/jobtrackerwindow.cpp:267
+#16 0x00007f6b69f94fe8 in QtPrivate::FunctorCall<QtPrivate::IndexesList<0, 1>, QtPrivate::List<QString const&, CynthJobState>, void, void (StratusIDE::JobTrackerWindow::*)(QString const&, CynthJobState)>::call (f=(void (StratusIDE::JobTrackerWindow::*)(StratusIDE::JobTrackerWindow * const, const QString &, CynthJobState)) 0x7f6b6a0408fa <StratusIDE::JobTrackerWindow::jobStateChanged(QString const&, CynthJobState)>, o=0x2ce4570, arg=0x7f6b48066f90) at ../../../Install/tools.lnx86/Qt/v5/64bit/include/QtCore/qobjectdefs_impl.h:136
+#17 0x00007f6b69f94334 in QtPrivate::FunctionPointer<void (StratusIDE::JobTrackerWindow::*)(QString const&, CynthJobState)>::call<QtPrivate::List<QString const&, CynthJobState>, void> (f=(void (StratusIDE::JobTrackerWindow::*)(StratusIDE::JobTrackerWindow * const, const QString &, CynthJobState)) 0x7f6b6a0408fa <StratusIDE::JobTrackerWindow::jobStateChanged(QString const&, CynthJobState)>, o=0x2ce4570, arg=0x7f6b48066f90) at ../../../Install/tools.lnx86/Qt/v5/64bit/include/QtCore/qobjectdefs_impl.h:169
+#18 0x00007f6b69f9166b in QtPrivate::QSlotObject<void (StratusIDE::JobTrackerWindow::*)(QString const&, CynthJobState), QtPrivate::List<QString const&, CynthJobState>, void>::impl (which=1, this_=0x28a87a0, r=0x2ce4570, a=0x7f6b48066f90, ret=0x0) at ../../../Install/tools.lnx86/Qt/v5/64bit/include/QtCore/qobject_impl.h:120
+#19 0x00007f6b8f333982 in QObject::event(QEvent*) () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Core.so.5
+#20 0x00007f6b8ff25fc2 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Widgets.so.5
+#21 0x00007f6b8ff2f3ba in QApplication::notify(QObject*, QEvent*) () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Widgets.so.5
+#22 0x00007f6b8f30a37a in QCoreApplication::notifyInternal2(QObject*, QEvent*) () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Core.so.5
+#23 0x00007f6b8f30ca9c in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*) () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Core.so.5
+#24 0x00007f6b8f35b813 in ?? () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Core.so.5
+#25 0x00007f6b8d573119 in g_main_context_dispatch () from /usr/lib64/libglib-2.0.so.0
+#26 0x00007f6b8d573478 in g_main_context_iterate.isra () from /usr/lib64/libglib-2.0.so.0
+#27 0x00007f6b8d57352c in g_main_context_iteration () from /usr/lib64/libglib-2.0.so.0
+#28 0x00007f6b8f35ae61 in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Core.so.5
+#29 0x00007f6b8f308e0b in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Core.so.5
+#30 0x00007f6b8f3105ce in QCoreApplication::exec() () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/OpenSourceIDEToolkit/Qt/lib/libcdsQt5Core.so.5
+#31 0x000000000041517c in main ()
+A debugging session is active.
+
+	Inferior 1 [process 216359] will be detached.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+[Inferior 1 (process 216359) detached]

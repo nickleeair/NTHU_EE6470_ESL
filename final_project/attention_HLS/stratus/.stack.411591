@@ -1,0 +1,45 @@
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib64/libthread_db.so.1".
+0x00002b788f36c60c in waitpid () from /usr/lib64/libc.so.6
+#0  0x00002b788f36c60c in waitpid () from /usr/lib64/libc.so.6
+#1  0x00002b788f2e9f62 in do_system () from /usr/lib64/libc.so.6
+#2  0x00002b788e271d99 in dumpStack () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libbdw_st.so
+#3  0x00002b788e158866 in msgAbortChk () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libbdw_st.so
+#4  0x00000000004276a5 in edg::stratus_finish_msg(edg::a_diagnostic*) ()
+#5  0x00000000004283a6 in edg::wrap_up_diagnostic(edg::a_diagnostic*) ()
+#6  0x000000000042d371 in edg::file_open_error(edg::an_error_severity, edg::an_error_code, char const*, edg::an_open_file_result*) ()
+#7  0x00000000004c0b6b in edg::open_file_for_input(char const*, int, int, int, int, int, int, int, char const**, char const**, _IO_FILE**, int*, edg::a_unicode_source_kind_tag*, edg::a_directory_name_entry**) ()
+#8  0x00000000004c11f6 in edg::open_file_and_push_input_stack(char const*, int, int, int, int, int, int, int, int, int*) ()
+#9  0x0000000000561381 in edg::proc_include(int, int*) ()
+#10 0x0000000000562a72 in edg::pp_directive() ()
+#11 0x00000000004c8f44 in edg::get_token() ()
+#12 0x0000000000713994 in edg::scan_nonmember_declaration(edg::a_decl_parse_state*, edg::a_source_range*) ()
+#13 0x0000000000711484 in edg::declaration(int, int, int, int, edg::a_param_id*, edg::a_source_range*) ()
+#14 0x0000000000716b2b in edg::translation_unit() ()
+#15 0x00000000005d5f5d in edg::process_translation_unit(char const*, int, edg::an_exported_template_file*) ()
+#16 0x0000000000412100 in main ()
+$1 = 0
+$2 = 0
+#0  0x00002b788f36c60c in waitpid () from /usr/lib64/libc.so.6
+#1  0x00002b788f2e9f62 in do_system () from /usr/lib64/libc.so.6
+#2  0x00002b788e271d99 in dumpStack () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libbdw_st.so
+#3  0x00002b788e158866 in msgAbortChk () from /tools/linux/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/libbdw_st.so
+#4  0x00000000004276a5 in edg::stratus_finish_msg(edg::a_diagnostic*) ()
+#5  0x00000000004283a6 in edg::wrap_up_diagnostic(edg::a_diagnostic*) ()
+#6  0x000000000042d371 in edg::file_open_error(edg::an_error_severity, edg::an_error_code, char const*, edg::an_open_file_result*) ()
+#7  0x00000000004c0b6b in edg::open_file_for_input(char const*, int, int, int, int, int, int, int, char const**, char const**, _IO_FILE**, int*, edg::a_unicode_source_kind_tag*, edg::a_directory_name_entry**) ()
+#8  0x00000000004c11f6 in edg::open_file_and_push_input_stack(char const*, int, int, int, int, int, int, int, int, int*) ()
+#9  0x0000000000561381 in edg::proc_include(int, int*) ()
+#10 0x0000000000562a72 in edg::pp_directive() ()
+#11 0x00000000004c8f44 in edg::get_token() ()
+#12 0x0000000000713994 in edg::scan_nonmember_declaration(edg::a_decl_parse_state*, edg::a_source_range*) ()
+#13 0x0000000000711484 in edg::declaration(int, int, int, int, edg::a_param_id*, edg::a_source_range*) ()
+#14 0x0000000000716b2b in edg::translation_unit() ()
+#15 0x00000000005d5f5d in edg::process_translation_unit(char const*, int, edg::an_exported_template_file*) ()
+#16 0x0000000000412100 in main ()
+A debugging session is active.
+
+	Inferior 1 [process 411591] will be detached.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+[Inferior 1 (process 411591) detached]

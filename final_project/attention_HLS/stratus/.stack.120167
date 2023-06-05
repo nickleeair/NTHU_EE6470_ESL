@@ -1,0 +1,47 @@
+[New LWP 120168]
+[New LWP 120356]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib64/libthread_db.so.1".
+0x00002b2b810ef659 in waitpid () from /usr/lib64/libc.so.6
+#0  0x00002b2b810ef659 in waitpid () from /usr/lib64/libc.so.6
+#1  0x00002b2b8106cf62 in do_system () from /usr/lib64/libc.so.6
+#2  0x00002b2b8106d311 in system () from /usr/lib64/libc.so.6
+#3  0x00002b2b85b93d99 in dumpStack () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/stratus/lib/64bit/libbdw_st.so
+#4  0x00002b2b85a7a866 in msgAbortChk () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/stratus/lib/64bit/libbdw_st.so
+#5  0x00002b2b82a93da5 in vatMsgLoc(void*, MsgId, MsgLimVal const&, int, __va_list_tag*) () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#6  0x00002b2b82a945cf in message(MsgId, int, ...) () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#7  0x00002b2b822a180d in translate_special_type(edg::a_type*, int) [clone .part.0] () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#8  0x00002b2b8229eaf3 in translate_type(edg::a_type*) [clone .part.0] () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#9  0x00002b2b8229ed7b in translate_type(edg::a_type*) [clone .part.0] () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#10 0x00002b2b8229ee44 in translate_type(edg::a_type*) [clone .part.0] () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#11 0x00002b2b822a08d9 in translate_routine(edg::a_routine*) () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#12 0x00002b2b8242daaa in edg::walk_declarative_entities_in_scope(edg::a_scope*, void (*)(char*, edg::an_il_entry_kind)) () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#13 0x00002b2b822accdc in translate_scope(edg::a_scope*) () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#14 0x00002b2b822ae13a in back_end() () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#15 0x00002b2b822bf713 in edg_main(int, char**) () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#16 0x00000000004011e7 in main ()
+$1 = 0
+$2 = 0
+#0  0x00002b2b810ef659 in waitpid () from /usr/lib64/libc.so.6
+#1  0x00002b2b8106cf62 in do_system () from /usr/lib64/libc.so.6
+#2  0x00002b2b8106d311 in system () from /usr/lib64/libc.so.6
+#3  0x00002b2b85b93d99 in dumpStack () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/stratus/lib/64bit/libbdw_st.so
+#4  0x00002b2b85a7a866 in msgAbortChk () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/stratus/lib/64bit/libbdw_st.so
+#5  0x00002b2b82a93da5 in vatMsgLoc(void*, MsgId, MsgLimVal const&, int, __va_list_tag*) () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#6  0x00002b2b82a945cf in message(MsgId, int, ...) () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#7  0x00002b2b822a180d in translate_special_type(edg::a_type*, int) [clone .part.0] () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#8  0x00002b2b8229eaf3 in translate_type(edg::a_type*) [clone .part.0] () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#9  0x00002b2b8229ed7b in translate_type(edg::a_type*) [clone .part.0] () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#10 0x00002b2b8229ee44 in translate_type(edg::a_type*) [clone .part.0] () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#11 0x00002b2b822a08d9 in translate_routine(edg::a_routine*) () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#12 0x00002b2b8242daaa in edg::walk_declarative_entities_in_scope(edg::a_scope*, void (*)(char*, edg::an_il_entry_kind)) () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#13 0x00002b2b822accdc in translate_scope(edg::a_scope*) () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#14 0x00002b2b822ae13a in back_end() () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#15 0x00002b2b822bf713 in edg_main(int, char**) () from /usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/libstratus_hls.so
+#16 0x00000000004011e7 in main ()
+A debugging session is active.
+
+	Inferior 1 [process 120167] will be detached.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+[Inferior 1 (process 120167) detached]

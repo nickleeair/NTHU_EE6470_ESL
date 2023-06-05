@@ -1,0 +1,8 @@
+              #################################################################
+              #                                                               #
+  ERROR 02733:# Cannot start server, bdw_shell, due to error:                 #
+  ERROR 02733.#   ERROR 02733:# Cannot start server, bdw_shell -bdw_server    #
+  ERROR 02733.#   #                                                           #
+              #                                                               #
+              #################################################################
+Qt Warning: The X11 connection broke (error 1). Did the X11 server die?

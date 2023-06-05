@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by Stratus IDE 4.6.2, 2023-05-28T18:55:47. -->
+<qtcreator>
+ <data>
+  <variable>CascadeSetActive</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>Color</variable>
+  <value type="QString">#666666</value>
+ </data>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNAAAAAIAAAB2AC8AdQBzAGUAcgBzAC8AcwB0AHUAZABlAG4AdAAvAG0AcgAxADEAMAAvAHkAcwBsAGUAZQAyADEALwBlAGUANgA0ADcAMAAvAEgAVwAzAC8AcwB0AHIAYQB0AHUAcwAvAHAAcgBvAGoAZQBjAHQALgB0AGMAbAAAAAwAAAAAGAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAKYALwB1AHMAZQByAHMALwBzAHQAdQBkAGUAbgB0AC8AbQByADEAMQAwAC8AeQBzAGwAZQBlADIAMQAvAGUAZQA2ADQANwAwAC8ARgBpAG4AYQBsAF8AcAByAG8AagBlAGMAdAAvAGEAdAB0AGUAbgB0AGkAbwBuAF8ASABMAFMALwBzAHQAcgBhAHQAdQBzAC8AcAByAG8AagBlAGMAdAAuAHQAYwBsAAAADAAAAAAYAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAgAAAKYALwB1AHMAZQByAHMALwBzAHQAdQBkAGUAbgB0AC8AbQByADEAMQAwAC8AeQBzAGwAZQBlADIAMQAvAGUAZQA2ADQANwAwAC8ARgBpAG4AYQBsAF8AcAByAG8AagBlAGMAdAAvAGEAdAB0AGUAbgB0AGkAbwBuAF8ASABMAFMALwBzAHQAcgBhAHQAdQBzAC8AcAByAG8AagBlAGMAdAAuAHQAYwBsAAAAFgBwAHIAbwBqAGUAYwB0AC4AdABjAGwAAAAUQ29yZS5QbGFpblRleHRFZGl0b3IAAAB2AC8AdQBzAGUAcgBzAC8AcwB0AHUAZABlAG4AdAAvAG0AcgAxADEAMAAvAHkAcwBsAGUAZQAyADEALwBlAGUANgA0ADcAMAAvAEgAVwAzAC8AcwB0AHIAYQB0AHUAcwAvAHAAcgBvAGoAZQBjAHQALgB0AGMAbAAAABYAcAByAG8AagBlAGMAdAAuAHQAYwBsAAAAFENvcmUuUGxhaW5UZXh0RWRpdG9yAAABAwAAAA1jdXJyZW50ZWRpdG9yAAAApgAvAHUAcwBlAHIAcwAvAHMAdAB1AGQAZQBuAHQALwBtAHIAMQAxADAALwB5AHMAbABlAGUAMgAxAC8AZQBlADYANAA3ADAALwBGAGkAbgBhAGwAXwBwAHIAbwBqAGUAYwB0AC8AYQB0AHQAZQBuAHQAaQBvAG4AXwBIAEwAUwAvAHMAdAByAGEAdAB1AHMALwBwAHIAbwBqAGUAYwB0AC4AdABjAGwAAAAoAEMAbwByAGUALgBQAGwAYQBpAG4AVABlAHgAdABFAGQAaQB0AG8AcgAAABgAAAABAAAAAAAAAAAAAAABAAAAAAAAAAA=</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/users/student/mr110/yslee21/ee6470/Final_project/attention_HLS/stratus/stratus.pro</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/users/student/mr110/yslee21/ee6470/Final_project/attention_HLS/stratus/stratus.pro</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Analysis</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-DefaultFormats</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>value-IndividualFormats</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <valuelist type="QVariantList">
+    <value type="QString">/users/student/mr110/yslee21/ee6470/Final_project/attention_HLS/stratus</value>
+    <value type="QString">Other files</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/users/student/mr110/yslee21/ee6470/Final_project/attention_HLS/stratus</value>
+    <value type="QString">stratus</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/users/student/mr110/yslee21/ee6470/HW3/stratus</value>
+    <value type="QString">stratus</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/users/student/mr110/yslee21/ee6470/HW3/stratus</value>
+    <value type="QString">Other files</value>
+   </valuelist>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-Watchers</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">DefaultFormats</value>
+   <value type="QString">IndividualFormats</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">Watchers</value>
+  </valuelist>
+ </data>
+</qtcreator>

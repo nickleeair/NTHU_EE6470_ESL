@@ -1,0 +1,197 @@
+LatestSupportedVersion: Xcelium20.9
+xmsim(64) 22.03-s003
+Linux 3.10.0-1160.88.1.el7.x86_64 #1 SMP Tue Mar 7 15:41:52 UTC 2023 x86_64
+CPU cores: 64
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		unlimited
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1024
+memorylocked	64 kbytes
+maxproc			4096
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+_=*280681*/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin/64bit/xrun
+ARITH_HOME=/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/cellmath
+BDW_AR=/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/gcc/9.3/bin/ar rc
+BDW_CC=/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/gcc/9.3/bin/g++
+BDW_CCDEP=/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/gcc/9.3/bin/g++
+BDW_CCOPTIONS=-DCLOCK_PERIOD=10.0 -g 
+BDW_COV_LIB_FLAGS=
+BDW_CYNTH_CONFIG=
+BDW_CYNTH_CONFIG_DIR=
+BDW_EXEC_CMD=
+BDW_EXTRA_CCFLAGS=
+BDW_EXTRA_LDFLAGS=
+BDW_EXTRA_LIBS=
+BDW_EXTRA_LIB_FLAGS=
+BDW_FSDBVCSPLATFORM=LINUX64
+BDW_GENDEPS=0
+BDW_HLSLIB_DIRS=
+BDW_HLSLIB_NAMES=
+BDW_HLS_CONFIG=
+BDW_HLS_CONFIG_DIR=
+BDW_HUB_ARGV=../lena_std_short.bmp out.bmp
+BDW_LIBDIR=bdw_work/libs
+BDW_LINK=/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/gcc/9.3/bin/g++
+BDW_LS_CONFIG=
+BDW_LS_CONFIG_DIR=
+BDW_LS_CONFIG_LOGS=
+BDW_LS_INFO=
+BDW_MODULE=
+BDW_MODULEDIR=bdw_work/modules
+BDW_NCSC=0
+BDW_OBJDIR=bdw_work/sims/V_UNROLL_PIPE
+BDW_PMAKE_FLG=
+BDW_PROJECT_FILE=/users/student/mr110/yslee21/ee6470/Final_project/attention_HLS/stratus/project.tcl
+BDW_SCSIM_ARGS=
+BDW_SIMDIR=bdw_work/sims
+BDW_SIM_CONFIG=V_UNROLL_PIPE
+BDW_SIM_CONFIG_DIR=bdw_work/sims/V_UNROLL_PIPE
+BDW_SYSTEMC_VERSION=2.3.3
+BDW_TCL_DIR=/usr/cad/cadence/STRATUS/STRATUS_21.10.100/share/stratus/tcl
+BDW_TECH_LIBS=/usr/cad/cadence/STRATUS/STRATUS_21.10.100/share/stratus/techlibs/GPDK045/gsclib045_svt_v4.4/gsclib045/timing/slow_vdd1v2_basicCells.lib
+BDW_USECYNTH=1
+BDW_USEHUB=1
+BDW_USE_ESCLIB=1
+BDW_USE_SCV=0
+BDW_VERILOG_DIALECT=1995
+BDW_VISTA=0
+BDW_VLOGCOMP_ARGS=
+BDW_VLOGSIM_ARGS=
+BDW_VLOG_DEFINES=+define+ioConfig +define+BDW_RTL_DecimationFilter_UNROLL_PIPE
+BDW_VLOG_DUMPFILE=
+BDW_VLOG_DUT_FILES= bdw_work/wrappers/softmax_cosim.v bdw_work/modules/DecimationFilter/UNROLL_PIPE/softmax_rtl.v 
+BDW_VLOG_LIBS=-y bdw_work/modules/DecimationFilter/UNROLL_PIPE/v_rtl
+BDW_VRTL_FILE=
+BDW_WORKLIB=bdw_work
+BDW_WRAPDIR=bdw_work/wrappers
+BDW_WRITEFSDB=0
+BDW_XMSC=1
+CDS_LANG=en_US.UTF-8
+CDS_LC_MONETARY=lzh_TW
+CDS_LC_NUMERIC=lzh_TW
+CDS_LC_TIME=lzh_TW
+CDS_LIC_FILE=5280@nthucad:1717@lshc:5280@nthucad:5280@lstc:26585@lshc:
+CDS_SET_LOCALE=C
+CDS_W3264_LIBPATH=/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/TPtools/boost/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/lib
+CM_USERLOGDIR=/users/student/mr110/yslee21/ee6470/Final_project/attention_HLS/stratus/bdw_work/tmp
+CM_USERTMPDIR=/users/student/mr110/yslee21/ee6470/Final_project/attention_HLS/stratus/bdw_work/tmp
+CWBExec_sim=1
+DISPLAY=localhost:11.0
+GENUS_INSTALL_PATH=/usr/cad/cadence/GENUS/cur
+GROUP=cthuang
+HOME=/users/student/mr110//yslee21
+HOST=ic55
+HOSTNAME=ic55
+HOSTTYPE=x86_64-linux
+INNOVUS_INSTALL_PATH=/usr/cad/cadence/INNOVUS/cur
+INPUTRC=/etc/inputrc
+LANG=en_US.UTF-8
+LC_ADDRESS=lzh_TW
+LC_ALL=C
+LC_IDENTIFICATION=lzh_TW
+LC_MEASUREMENT=lzh_TW
+LC_NAME=lzh_TW
+LC_PAPER=lzh_TW
+LC_TELEPHONE=lzh_TW
+LD_LIBRARY_PATH=:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/TPtools/boost/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/lib:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib64:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/lib:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib64:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/lib:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib64:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib:/usr/cad/cadence/GENUS/GENUS_21.12.000/tools/lib/64bit:/usr/cad/cadence/GENUS/GENUS_21.12.000/tools/lib64:/usr/cad/cadence/GENUS/GENUS_21.12.000/tools/lib:/usr/cad/cadence/INNOVUS/INNOVUS_21.13.000/tools/lib/64bit:/usr/cad/cadence/INNOVUS/INNOVUS_21.13.000/tools/lib64:/usr/cad/cadence/INNOVUS/INNOVUS_21.13.000/tools/lib:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/lib:/usr/cad/synopsys/verdi/cur/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/:/:/usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64:/usr/lib64:/usr/local/lib64:bdw_work/sims
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LM_LICENSE_FILE=5280@nthucad:5280@lstc:5280@nthucad:5280@nthucad:1717@lshc:5280@nthucad:26585@lshc:
+LOGNAME=yslee21
+MACHTYPE=x86_64
+MAIL=/var/spool/mail/yslee21
+MAKEFLAGS= --no-print-directory -- CWBExec_sim=1 BDW_SIM_CONFIG=V_UNROLL_PIPE
+MAKELEVEL=4
+MAKEOVERRIDES=${-*-command-variables-*-}
+MANPATH=/usr/cad/synopsys/synthesis/2020.09//doc/syn/man:/usr/cad/synopsys/vcs/2021.09//doc/man
+MFLAGS=- --no-print-directory
+MTI_VCO_MODE=64
+NOVAS_HOME=/usr/cad/synopsys/verdi/cur
+OSTYPE=linux
+PATH=/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/cdsgdb/gdb/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/cellmath/bin::/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/cellmath/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/cdsgdb/gdb/bin::/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/cellmath/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/cdsgdb/gdb/bin:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/bin/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/bin:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/bin/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/bin:/tools/linux/cadence/STRATUS/cur/bin:/usr/cad/mentor/modelsim/2020.1//modeltech/bin:/usr/cad/cadence/GENUS/cur/bin:/usr/cad/cadence/INNOVUS/cur/bin:/usr/cad/cadence/STRATUS/cur/bin:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin:/usr/cad/cadence/GENUS/GENUS_21.12.000/tools/bin/64bit:/usr/cad/cadence/GENUS/GENUS_21.12.000/tools/bin:/usr/cad/cadence/INNOVUS/INNOVUS_21.13.000/tools/bin/64bit:/usr/cad/cadence/INNOVUS/INNOVUS_21.13.000/tools/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/bin/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/bin:/usr/cad/synopsys/icc2/2020.09//bin:/usr/cad/synopsys/icc/2021.06-sp1//amd64/syn/bin:/usr/cad/synopsys/primetime/2022.12/amd64/syn/bin:/usr/cad/synopsys/verdi/cur/bin:/usr/cad/synopsys/verdi/cur/nLint/bin:/usr/cad/synopsys/spyglass/2022.06//SPYGLASS_HOME/bin:/usr/cad/synopsys/vcs/2021.09//amd64/bin:/usr/cad/synopsys/synthesis/2020.09//amd64/syn/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/genus/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/genus/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/genus/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/joules/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/bin/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/bin:
+PWD=/users/student/mr110/yslee21/ee6470/Final_project/attention_HLS/stratus
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+QTLIB=/usr/lib64/qt-3.3/lib
+QT_GRAPHICSSYSTEM_CHECKED=1
+REMOTEHOST=nthucad
+SHELL=/bin/tcsh
+SHLIB_PATH=/usr/cad/synopsys/verdi/cur/etc/lib/libstdc++/LINUX64/
+SHLVL=9
+SSH_CLIENT=192.168.75.200 59422 22
+SSH_CONNECTION=192.168.75.200 59422 192.168.75.25 22
+SSH_TTY=/dev/pts/2
+STRATUS_EXAMPLE=/tools/linux/cadence/STRATUS/cur/share/stratus/collateral/examples
+STRATUS_HOME=/usr/cad/cadence/STRATUS/STRATUS_21.10.100
+STRATUS_INSTALL_PATH=/tools/linux/cadence/STRATUS/cur
+STRATUS_PLATFORM=lnx86
+SYN_MAN_DIR=/usr/cad/synopsys/vcs/2021.09//doc/man
+SYSTEMC=/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/systemc/2.3.3
+TERM=xterm
+USER=yslee21
+VCS_CC=gcc
+VCS_HOME=/usr/cad/synopsys/vcs/2021.09/
+VENDOR=unknown
+W3264_ENV=/users/student/mr110//yslee21/.kshrc
+W3264_USER_LIBPATH=/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/TPtools/boost/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/lib:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/TPtools/boost/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/lib:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/lib/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib64:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib::/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/lib::/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib64:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib::/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/lib:::/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib64:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/lib::/usr/cad/cadence/GENUS/GENUS_21.12.000/tools/lib/64bit:/usr/cad/cadence/GENUS/GENUS_21.12.000/tools/lib64:/usr/cad/cadence/GENUS/GENUS_21.12.000/tools/lib::/usr/cad/cadence/INNOVUS/INNOVUS_21.13.000/tools/lib/64bit:/usr/cad/cadence/INNOVUS/INNOVUS_21.13.000/tools/lib64:/usr/cad/cadence/INNOVUS/INNOVUS_21.13.000/tools/lib::/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/lib/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/lib:::::/usr/cad/synopsys/verdi/cur/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/:/:/usr/cad/synopsys/verdi/cur/share/PLI/VCS/LINUX64::/lib64:/usr/lib64:/usr/local/lib64:
+W3264_USER_PATH=:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/cellmath/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/cdsgdb/gdb/bin::/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/cellmath/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/cdsgdb/gdb/bin:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/bin/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/bin:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/bin/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/bin:/tools/linux/cadence/STRATUS/cur/bin:/usr/cad/mentor/modelsim/2020.1//modeltech/bin:/usr/cad/cadence/GENUS/cur/bin:/usr/cad/cadence/INNOVUS/cur/bin:/usr/cad/cadence/STRATUS/cur/bin:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin/64bit:/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/bin:/usr/cad/cadence/GENUS/GENUS_21.12.000/tools/bin/64bit:/usr/cad/cadence/GENUS/GENUS_21.12.000/tools/bin:/usr/cad/cadence/INNOVUS/INNOVUS_21.13.000/tools/bin/64bit:/usr/cad/cadence/INNOVUS/INNOVUS_21.13.000/tools/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/bin/64bit:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools/bin:/usr/cad/synopsys/icc2/2020.09//bin:/usr/cad/synopsys/icc/2021.06-sp1//amd64/syn/bin:/usr/cad/synopsys/primetime/2022.12/amd64/syn/bin:/usr/cad/synopsys/verdi/cur/bin:/usr/cad/synopsys/verdi/cur/nLint/bin:/usr/cad/synopsys/spyglass/2022.06//SPYGLASS_HOME/bin:/usr/cad/synopsys/vcs/2021.09//amd64/bin:/usr/cad/synopsys/synthesis/2020.09//amd64/syn/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/genus/bin:/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/genus/bin
+XDG_RUNTIME_DIR=/run/user/150111
+XDG_SESSION_ID=26009
+XLOCALEDIR=/usr/cad/synopsys/icc2/2020.09//etc/locale
+A__z="*SHLVL
+_XRUNROOT_=/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools
+_IRUNROOT_=/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools
+_HELIUMROOT_=/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools
+CDS_ARCH=lnx86
+XMRUNMODE=xrun:bdw_work/sims/V_UNROLL_PIPE/run.lnx8664.22.03.d
+XRUNBATCH=FALSE
+AMS_LOG_FILE_NAME=bdw_work/sims/V_UNROLL_PIPE/bdw_sim_verilog.log
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/cad/cadence/XCELIUM/XCELIUM_22.03.003/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=xrun
+argv[1]=-sdfdir
+argv[2]=bdw_work/sims/V_UNROLL_PIPE
+argv[3]=+xm64bit
+argv[4]=+incdir+/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib
+argv[5]=+incdir+bdw_work/wrappers
+argv[6]=+access+rw
+argv[7]=+loadpli1=/usr/cad/cadence/STRATUS/STRATUS_21.10.100/tools.lnx86/stratus/lib/64bit/ncvlog_ssl:ssl_bootstrap
+argv[8]=+xminput+bdw_work/sims/V_UNROLL_PIPE/ncverilog.do
+argv[9]=+xmlibdirname+bdw_work/sims/V_UNROLL_PIPE
+argv[10]=+BDW_VLOG_DUMPFILE+
+argv[11]=-f
+argv[12]=bdw_work/sims/V_UNROLL_PIPE/siminfo
+argv[13]=bdw_work/sims/top_V_UNROLL_PIPE.v
+argv[14]=bdw_work/wrappers/softmax_cosim.v
+argv[15]=bdw_work/modules/DecimationFilter/UNROLL_PIPE/softmax_rtl.v
+argv[16]=bdw_work/modules/DecimationFilter/UNROLL_PIPE/v_rtl/DecimationFilter_Div_32Ux64U_32U_4.v
+argv[17]=bdw_work/modules/DecimationFilter/UNROLL_PIPE/v_rtl/DecimationFilter_RAM_256X32_2.v
+argv[18]=bdw_work/modules/DecimationFilter/UNROLL_PIPE/v_rtl/DecimationFilter_RAM_128X32_1.v
+argv[19]=+libext+.v
+argv[20]=+define+ioConfig
+argv[21]=+define+BDW_RTL_DecimationFilter_UNROLL_PIPE
+argv[22]=+nowarn+LIBNOU
+argv[23]=+hubSetOption+libdef=bdw_work/sims/V_UNROLL_PIPE/sim_V_UNROLL_PIPE.so,argv=../lena_std_short.bmp%out.bmp
+argv[24]=+hubSetOption+bdr=bdw_work/sims/V_UNROLL_PIPE/sim.bdr
+argv[25]=-l
+argv[26]=bdw_work/sims/V_UNROLL_PIPE/bdw_sim_verilog.log
+186 profile - 100
+          CPU/Mem usage: 0.070 sys,  0.180 user,  123.56M sys,  0.00M vm
+187 VC callback profile - scalar:0 vector:0
+188 Sun May 28 21:23:16 2023
+189 pliAppInit
+190 FSDB_GATE is disabled.
+191 Enable Parallel Dumping.
+192 pliAppMiscSet: New Sim Round
+193 pliEntryInit
+194 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX64/libsscore_xcelium.so through $LD_LIBRARY_PATH setting.
+195 Sim process exit
